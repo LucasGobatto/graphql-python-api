@@ -1,0 +1,7 @@
+src/**/__pycache__/
+db
+Include/
+Lib/
+Scripts/
+
+!src/data/db

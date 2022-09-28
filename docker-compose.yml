@@ -1,0 +1,11 @@
+services:
+  local:
+    image: postgres:11.2
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db/dumps:/app-db-dumps
+    environment:
+      - POSTGRES_USER=postegres
+      - POSTGRES_PASSWORD=python-api123
+      - POSTGRES_DB=postegres
